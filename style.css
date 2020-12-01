@@ -1,0 +1,123 @@
+@font-face {
+    font-family : font_strong;
+    src:url('../font/[phongchuviet.com]\ Mafistha\ \(TempMakers\)/[phongchuviet.com]Mafistha(TempMakers)/Mafistha.ttf'),
+    url('../font/[phongchuviet.com]\ Mafistha\ \(TempMakers\)/[phongchuviet.com]Mafistha(TempMakers)/Mafistha.otf');
+    font-weight: 600;
+    font-style:italic;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman'
+}  
+body{
+    background-size: cover;
+    overflow: auto;
+}
+.logo{
+    border: solid 1px pink;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.main {
+    margin: 5px;
+    border: solid 1px rgb(175, 162, 162);
+}
+.container-fluid .aside_left{
+    float: left;
+    width: 60%;
+    display: flex;
+}
+.container-fluid .aside_right{
+    float: right;
+    width: 40%;
+}
+.container-fluid .aside_left .logo{
+    width: 100px;
+    height: 100px;
+}
+.border_radius{
+    padding-left: 10px;
+    border: none;
+    border-bottom: solid 1px black;
+}
+.menu{
+    padding: 10px 0;
+    background-image: linear-gradient( rgb(218, 147, 89),rgb(223, 173, 141), pink);
+}
+a{
+    color: rgb(121, 118, 118) !important ;
+}
+.border_right{
+    border-right: solid 2px white;
+    width: 150px;
+}
+.content .content_left{
+    float: left;
+    width: 70%;
+    margin: 10px;
+}
+.content .content_right{
+    float: right;
+    width: 30%;
+    margin: 10px;
+}
+.img_spm_demo:hover{
+    transform: scale(1.5);
+}
+.img_spm_demo{
+    transition-duration: 0.2s ;
+    border: solid 1px black;
+}
+.list_link:hover li a:not(:hover){
+    opacity: 0.5;
+}
+.list_link li a:hover{
+    font-size: 20px;
+}
+@keyframes ex1{
+from {background-color: rgb(209, 236, 86);}
+ to {background-color: rgb(252, 63, 6);}
+}
+.img_run{
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 255px;
+  max-width:275px;
+  height: 150px;
+  width: 100%;
+  border: solid 1px black;
+}
+.img_run img{
+  height: 100%;
+  position: absolute;
+  right: 0;
+  -webkit-transition: all 2s ease-out;
+  transition: all 2s ease-out;
+  width: 150%;
+}
+.img_run:hover img,
+.img_run.hover img {
+  -webkit-transform: translateX(100px);
+  transform: translateX(100px);
+}.message{
+    /* display: none; */
+    color: plum;
+    margin: 10px;
+}
+.banner_main{
+    width: 60%;
+    height: 150px;
+    border: solid 1px black;
+    overflow: hidden;
+}.footer_left{
+    float: left;
+    width: 60%;
+}
+.footer_right{
+    float: right;
+    width: 40%;
+}

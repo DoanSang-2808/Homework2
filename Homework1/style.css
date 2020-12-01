@@ -1,0 +1,28 @@
+.container-add{
+    padding:30px 20px 10px 20px;
+}
+.header{
+    font-size: 40px; color: grey;
+}
+button{
+    background-color: #34a599; border-radius: 4px; margin-top: 20px; height: 40px; width: 120px; 
+    font-size: 17px;
+    color:white;
+
+}
+input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: #9e9e9e solid 2px;
+  font-size: 17px;
+  margin-left: 10px;
+  
+}.container{
+    border: solid 2px rgb(177, 165, 165); border-radius: 5px; padding: 0px;
+}
+li{
+    display: list-item
+}
